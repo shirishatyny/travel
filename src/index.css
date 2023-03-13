@@ -11,3 +11,189 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+*{
+  margin: 0px;
+}
+
+body {
+  box-sizing: border-box;
+}
+.react--app--container{
+  width: 550px;
+  height: 1030px;
+  margin: 10px auto;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 1px 14px 0px rgba(5, 4, 4, 0.353);
+
+}
+.imgClass{
+  height: 30px;
+  width: 30px;
+}
+.nav--cont--bar{
+  position: sticky;
+  top: 0px;
+  
+  color: white;
+  display: flex;
+  padding-left: 190px;
+  background-color:red;
+}
+.titleClass{
+  margin-left: 6px;
+  margin-top: 3.7px;
+}
+.app--container {
+  overflow-y: auto;
+}
+
+
+
+
+
+.nav--p {
+  font-size: 14px;
+  margin-top: 2px;
+  font-weight: bold;
+  color: white;
+}
+
+
+
+.place--container{
+  width: 471px;
+  height: 168px;
+  border-radius: 9px;
+  margin: 30px auto;
+  display: flex;
+  background-color: rgb(242, 236, 236);
+  box-shadow: 1px 1px 10px 0px rgba(128, 128, 128, 0.466);
+}
+
+.left--image{
+  width: 126px;
+  height: 168px;
+  border-radius: 9px;
+}
+
+.right--container{
+ margin: 6px 17px;
+ margin-right: 0px;
+ padding-top: 9px;
+
+}
+.first--location{
+  display: flex;
+}
+
+.location--image{
+  height: 13px;
+  margin-top: 3px;
+}
+.city--name{
+  font-size: 13px;
+  color: rgb(66, 65, 65);
+  margin-left: 3px;
+  margin-bottom: 2px;
+}
+.map--link{
+  font-size: 10px;
+  margin-left: 14px;
+  color: gray;
+  margin-top: 3px;
+}
+
+.mane--h1{
+  font-size: 25px;
+  color: rgb(53, 52, 52);
+  margin: 0px 0px 9px 1px;
+}
+.content--part h4{
+  font-size: 10.24px;
+  margin-bottom: 7px;
+  color: rgb(53, 52, 52);
+
+}
+.content--part p{
+  font-size: 10.24px;
+  color: rgb(53, 52, 52);
+  margin-right: 7px;
+}
+
+@media screen and (max-width:600px) {
+  .nav--cont--bar{
+    position: sticky;
+    top: 0px;
+    color: white;
+    display: flex;
+    padding-left: 70px;
+    background-color:orangered;
+  }
+  .imgClass{
+    height:70px;
+    width:70px;
+  }
+  .titleClass{
+    font-size: 39px;
+  }
+  
+    .place--container{
+      width: 530px;
+      height: 200px;
+      border-radius: 4px;
+      margin: px auto;
+      display: flex;
+      background-color: rgb(242, 236, 236);
+      box-shadow: 1px 1px 10px 0px rgba(128, 128, 128, 0.466);
+    }
+    .left--image{
+      width: 190px;
+      height: 197px;
+      border-radius: 8px;
+    }
+    
+    .right--container{
+     margin: 12px 20px;
+     margin-right: 0px;
+     padding-top: 1px; 
+    }
+    .first--location{
+      display: flex;
+    }
+    
+    .location--image{
+      height: 23px;
+      margin-top: 2px;
+    }
+    .city--name{
+      font-size: 22px;
+      color: rgb(66, 65, 65);
+      margin-left: 1px;
+      margin-bottom: 1px;
+    }
+    .map--link{
+      font-size: 20px;
+      margin-left: 14px;
+      color: gray;
+      margin-top: 1px;
+    }
+    
+    .mane--h1{
+      font-size: 28px;
+      color: rgb(53, 52, 52);
+      margin: 0px 0px 17px 1px;
+    }
+    .content--part h4{
+      font-size: 16px;
+      margin-bottom: 14px;
+      color: rgb(53, 52, 52);
+    }
+    .content--part p{
+      font-size: 12px;
+      color: rgb(53, 52, 52);
+      margin-right: 28px;
+    }
+    
+  }
+
+  

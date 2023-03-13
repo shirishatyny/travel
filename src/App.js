@@ -1,5 +1,6 @@
 
-import "./App.css"
+
+import "./index.css"
 import Trip from './Components/Trip';
 import Data from './Components/Data';
 
@@ -15,7 +16,7 @@ function App(){
   return (
     <div className='react--app--container'>
       <div className="nav--cont--bar">
-        <img  className="imgClass" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnOnsTBiMPLH_zx9nzLqjylpeJTV4W3fy71VXpFxevvg&s.jpg" />
+        <img  className="imgClass" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnOnsTBiMPLH_zx9nzLqjylpeJTV4W3fy71VXpFxevvg&s.jpg" alt="error"/>
       <h3 className="titleClass">Travel journal</h3></div>
       <div className="app--container">
         {dataset}
